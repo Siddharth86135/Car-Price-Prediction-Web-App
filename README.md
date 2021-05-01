@@ -1,33 +1,14 @@
 # Car-Price-Prediction-Web-App
 
-## Objective
+## Problem Description:
 
-We try to classify SMS messages as SPAM or NOT SPAM using various ML algorithms. The notebook (spam_classifier.ipynb)consists steps to process and explore the dataset, convert messages to vectors and applying ML techniques for the same.
+There is an automobile company XYZ from Japan which aspires to enter the US market by setting up their manufacturing unit there and producing cars locally to give competition to their US and European counterparts.
 
-The notebook(spam_classifier_rnn.ipynb) uses a Recurrent Neural Network (RNN) and LSTM to classify the messages. RNNs are networks with loops in them, allowing information from previous time step to persist capable of handling long-term dependencies.
+They want to understand the factors affecting the pricing of cars in the American market, since those may be very different from the Japanese market. Essentially, the company wants to know:
+  1. Which variables are significant in predicting the price of a car
+  2. How well those variables describe the price of a car
 
-In this project, I have explored and compared text preprocessing and feature selection methods among word count, character count, bag of words, removing stop words, stemming, and Lemmatization. Logistic regression classifier is used to detect ham or spam SMS messages. The dataset is a collection of 5,574 text messages in English, taggled according being ham (legitimate) or spam. 
-
-## Dataset
-
-The Dataset is a set of SMS tagged messages  collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged acording being ham (legitimate) or spam.
-
-The dataset is available [here.](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection)
-
-Example Messages:
-
-```
-ham What you doing?how are you? 
-ham Ok lar... Joking wif u oni... 
-ham dun say so early hor... U c already then say... 
-ham MY NO. IN LUTON 0125698789 RING ME IF UR AROUND! H* 
-ham Siva is in hostel aha:-. 
-ham Cos i was out shopping wif darren jus now n i called him 2 ask wat present he wan lor. Then he started guessing who i was wif n he finally guessed darren lor. 
-spam FreeMsg: Txt: CALL to No: 86888 & claim your reward of 3 hours talk time to use from your phone now! ubscribe6GBP/ mnth inc 3hrs 16 stop?txtStop 
-spam Sunshine Quiz! Win a super Sony DVD recorder if you canname the capital of Australia? Text MQUIZ to 82277. B 
-spam URGENT! Your Mobile No 07808726822 was awarded a L2,000 Bonus Caller Prize on 02/09/03! This is our 2nd attempt to contact YOU! Call 0871-872-9758 BOX95QU 
-
-```
+Based on various market surveys, the consulting firm has gathered a large dataset of different types of cars across the American market.
 
 
 ## Model Deployement
